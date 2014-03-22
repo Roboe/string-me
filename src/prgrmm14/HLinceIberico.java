@@ -1,6 +1,6 @@
-package programame2014;
+package prgrmm14;
 
-public class ISaltosTrampolin {
+public class HLinceIberico {
 
 	public static void main(String[] args) {
 

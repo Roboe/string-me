@@ -1,6 +1,6 @@
-package programame2014;
+package prgrmm14;
 
-public class CTranslatlantico {
+public class GNumsReversibles {
 
 	public static void main(String[] args) {
 

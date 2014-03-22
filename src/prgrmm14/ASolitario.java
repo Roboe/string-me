@@ -1,6 +1,6 @@
-package programame2014;
+package prgrmm14;
 
-public class GNumsReversibles {
+public class ASolitario {
 
 	public static void main(String[] args) {
 

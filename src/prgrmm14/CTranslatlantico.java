@@ -1,6 +1,6 @@
-package programame2014;
+package prgrmm14;
 
-public class JSudokus {
+public class CTranslatlantico {
 
 	public static void main(String[] args) {
 
