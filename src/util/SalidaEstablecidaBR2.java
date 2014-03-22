@@ -5,16 +5,21 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * @author Roboe 
+ * @author Roboe
  */
-public class EntradaInfinita {
+public class SalidaEstablecidaBR2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String input;
-		while ((input = br.readLine()) != null) {
-			System.out.println(input);
-		}
+		do {
+			input = br.readLine();
+			if (!input.equals("0")) {
+				System.out.println(input);
+			}
+		} while (!input.equals("0"));
+
 		// System.out.println("Bye!");
 	}
+
 }

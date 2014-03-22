@@ -3,9 +3,9 @@ package util;
 import java.util.Scanner;
 
 /**
- * @author Roboe 
+ * @author Roboe
  */
-public class CasosContados {
+public class CasosContadosSc {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

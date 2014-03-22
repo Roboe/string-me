@@ -7,15 +7,14 @@ import java.io.InputStreamReader;
 /**
  * @author Roboe
  */
-public class SalidaEstablecida {
+public class EntradaInfinitaBR {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String input;
-		while (!(input = br.readLine()).equals("0")) {
+		while ((input = br.readLine()) != null) {
 			System.out.println(input);
 		}
 		// System.out.println("Bye!");
 	}
-
 }

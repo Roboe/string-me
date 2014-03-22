@@ -7,18 +7,14 @@ import java.io.InputStreamReader;
 /**
  * @author Roboe
  */
-public class SalidaEstablecida2 {
+public class SalidaEstablecidaBR {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String input;
-		do {
-			input = br.readLine();
-			if (!input.equals("0")) {
-				System.out.println(input);
-			}
-		} while (!input.equals("0"));
-
+		while (!(input = br.readLine()).equals("0")) {
+			System.out.println(input);
+		}
 		// System.out.println("Bye!");
 	}
 
