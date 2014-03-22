@@ -19,11 +19,14 @@ public class DFactoriales {
 			num2 = Long.parseLong(input.split(" ")[1]);
 
 			if (num1 >= num2) {
-				System.out.println(input);
+				long res = 1;
+				for (long i = num1; i > num2; i--) {
+					res *= i;
+				}
+				System.out.println(res);
 			}
 		} while (num1 >= num2);
 
 		// System.out.println("Bye!");
 	}
-
 }
