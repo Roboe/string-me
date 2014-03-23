@@ -21,7 +21,7 @@ public class JSudokus {
 			boolean valido = true;
 			int numeros = 0;
 			// (length+1)/2 para que compruebe hasta el centro incluido (por si
-			// es la diferencia entre 32 y 33/34)
+			// es la diferencia entre 32 y 33)
 			for (int j = 0; j < (sudoku.length + 1) / 2 && valido; j++) {
 				if (sudoku[j] != '-' && sudoku[sudoku.length - 1 - j] != '-') {
 					numeros += 2;
