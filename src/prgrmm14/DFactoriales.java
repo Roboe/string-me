@@ -4,13 +4,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import util.Entrada;
+
 /**
  * @author Roboe
  */
 public class DFactoriales {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(
+				Entrada.getEntrada(Entrada.PRGRMM14, "D")));
 		String input;
 		long num1 = 0, num2 = 0;
 		do {

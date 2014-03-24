@@ -4,13 +4,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import util.Entrada;
+
 /**
  * @author Roboe
  */
 public class JSudokus {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(
+				Entrada.getEntrada(Entrada.PRGRMM14, "J")));
 		int casos = Integer.parseInt(br.readLine());
 		for (int i = 0; i < casos; i++) {
 			String input = br.readLine();
@@ -25,8 +28,6 @@ public class JSudokus {
 			for (int j = 0; j < (sudoku.length + 1) / 2 && valido; j++) {
 				if (sudoku[j] != '-' && sudoku[sudoku.length - 1 - j] != '-') {
 					numeros += 2;
-					System.out.println(j + " " + sudoku[j] + " "
-							+ sudoku[sudoku.length - 1 - j] + " " + numeros);
 				} else if (sudoku[j] == '-'
 						&& sudoku[j] == sudoku[sudoku.length - 1 - j]) {
 				} else {

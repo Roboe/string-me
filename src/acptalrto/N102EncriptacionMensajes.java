@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import util.Entrada;
+
 /**
  * @author Roboe
  * @link https://www.aceptaelreto.com/problem/statement.php?id=102
@@ -15,7 +17,8 @@ public class N102EncriptacionMensajes {
 	private static int abc = 'z' - 'a' + 1;
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(
+				Entrada.getEntrada(Entrada.ACPTALRTO, "N102")));
 		char[] input;
 		ArrayList<Integer> salida = new ArrayList<Integer>();
 		int clave;

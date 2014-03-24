@@ -1,15 +1,18 @@
 package prgrmm14;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.StringTokenizer;
+
+import util.Entrada;
 
 /**
  * @author Roboe
  */
 public class CTranslatlantico {
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner sc = new Scanner(Entrada.getEntrada(Entrada.PRGRMM14, "C"));
 		int pLength;
 		while ((pLength = Integer.parseInt(sc.nextLine())) != 0) {
 			int[] pasajeros = new int[pLength];

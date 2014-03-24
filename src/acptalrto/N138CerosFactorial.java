@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import util.Entrada;
+
 /**
  * @author Roboe
  * @link https://www.aceptaelreto.com/problem/statement.php?id=138
@@ -12,7 +14,8 @@ import java.io.InputStreamReader;
 public class N138CerosFactorial {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(
+				Entrada.getEntrada(Entrada.ACPTALRTO, "N138")));
 
 		double casos = Double.parseDouble(br.readLine());
 		double[] numeroCeros = new double[(int) casos];

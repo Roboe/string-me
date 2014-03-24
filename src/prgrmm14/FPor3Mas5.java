@@ -4,12 +4,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import util.Entrada;
+
 /**
  * @author Roboe
  */
 public class FPor3Mas5 {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(
+				Entrada.getEntrada(Entrada.PRGRMM14, "F")));
 		String input;
 		while (!(input = br.readLine()).equals("0")) {
 			int numero = Integer.parseInt(input);

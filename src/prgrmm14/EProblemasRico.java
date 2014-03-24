@@ -4,13 +4,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import util.Entrada;
+
 /**
  * @author Roboe
  */
 public class EProblemasRico {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(
+				Entrada.getEntrada(Entrada.PRGRMM14, "E")));
 		int casos = Integer.parseInt(br.readLine());
 		for (int i = 0; i < casos; i++) {
 			String[] input = br.readLine().split(" ");
