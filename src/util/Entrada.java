@@ -32,7 +32,7 @@ public final class Entrada {
 	public static final InputStream getEntrada(String paquete,
 			String localizador) throws FileNotFoundException {
 		InputStream fis = new FileInputStream(new File("src/" + paquete
-				+ "/data/" + localizador + ".in"));
+				+ "/io/" + localizador + ".in"));
 		return fis;
 	}
 }
