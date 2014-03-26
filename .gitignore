@@ -1,0 +1,11 @@
+#java specific
+*.class
+/bin
+ 
+#general swap/backup files
+*.so
+*.log
+*~
+*.swp
+*.DS_Store
+*.lock

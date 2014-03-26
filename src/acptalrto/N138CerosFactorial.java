@@ -8,7 +8,7 @@ import util.Entrada;
 
 /**
  * @author Roboe
- * @link https://www.aceptaelreto.com/problem/statement.php?id=138
+ * @see https://www.aceptaelreto.com/problem/statement.php?id=138
  * @result AC
  */
 public class N138CerosFactorial {

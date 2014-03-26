@@ -9,7 +9,7 @@ import util.Entrada;
 
 /**
  * @author Roboe
- * @link https://www.aceptaelreto.com/problem/statement.php?id=102
+ * @see https://www.aceptaelreto.com/problem/statement.php?id=102
  * @result AC
  */
 public class N102EncriptacionMensajes {

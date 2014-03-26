@@ -4,7 +4,7 @@ import java.io.IOException;
 
 /**
  * @author Roboe
- * @link https://www.aceptaelreto.com/problem/statement.php?id=116
+ * @see https://www.aceptaelreto.com/problem/statement.php?id=116
  * @result AC p2 t0.005 m68
  */
 public class N116HolaMundoXDXDXD {
