@@ -4,16 +4,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import util.Entrada;
-
 /**
  * @author Roboe
+ * @see https://www.aceptaelreto.com/problem/statement.php?id=190
+ * @result AC p1 t2.743 m3584
  */
 public class DFactoriales {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(
-				Entrada.getEntrada(Entrada.PRGRMM14, "D")));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String input;
 		long num1 = 0, num2 = 0;
 		do {
@@ -29,7 +28,5 @@ public class DFactoriales {
 				System.out.println(res);
 			}
 		} while (num1 >= num2);
-
-		// System.out.println("Bye!");
 	}
 }
