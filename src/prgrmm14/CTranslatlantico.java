@@ -4,15 +4,15 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-import util.Entrada;
-
 /**
  * @author Roboe
+ * @see https://www.aceptaelreto.com/problem/statement.php?id=189
+ * @result MLE
  */
 public class CTranslatlantico {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		Scanner sc = new Scanner(Entrada.getEntrada(Entrada.PRGRMM14, "C"));
+		Scanner sc = new Scanner(System.in);
 		int pLength;
 		while ((pLength = Integer.parseInt(sc.nextLine())) != 0) {
 			int[] pasajeros = new int[pLength];

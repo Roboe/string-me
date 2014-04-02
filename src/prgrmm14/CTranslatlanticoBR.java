@@ -5,16 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-import util.Entrada;
-
 /**
  * @author Roboe
+ * @see https://www.aceptaelreto.com/problem/statement.php?id=189
+ * @result MLE
  */
 public class CTranslatlanticoBR {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(
-				Entrada.getEntrada(Entrada.PRGRMM14, "C")));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int pLength;
 		while ((pLength = Integer.parseInt(br.readLine())) != 0) {
 			int[] pasajeros = new int[pLength];
