@@ -4,16 +4,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import util.Entrada;
-
 /**
  * @author Roboe
+ * @see https://www.aceptaelreto.com/problem/statement.php?id=188
+ * @result AC p1 t1.47 m3585
  */
 public class BEncadenandoPalabras {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(
-				Entrada.getEntrada(Entrada.PRGRMM14, "B")));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String input;
 		while ((input = br.readLine()) != null) {
 			String[] palabra = input.split(" ");
